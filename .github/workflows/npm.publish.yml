@@ -21,8 +21,7 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
     - run: npm install
     - run: npm run build:sdk
-    - run: cd ./sdk
-    - run: npm publish
+    - run: cd ./sdk && npm publish
       env: 
         NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_TOKEN}}
   publish-command:
@@ -36,7 +35,6 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
     - run: npm install
     - run: npm run build:command
-    - run: cd ./command
-    - run: npm publish
+    - run: cd ./command && npm publish
       env: 
         NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_TOKEN}}  
