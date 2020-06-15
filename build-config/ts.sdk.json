@@ -1,0 +1,10 @@
+{
+  "extends": "./ts.base",
+  "compilerOptions": {
+    "outDir": "../sdk",
+    "declaration": true
+  },
+  "files": [
+    "../index.ts"
+  ]
+}

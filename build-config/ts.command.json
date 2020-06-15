@@ -1,0 +1,7 @@
+{
+  "extends": "./ts.base",
+  "compilerOptions": {
+    "outDir": "../command"
+  },
+  "files": ["../command.ts"]
+}

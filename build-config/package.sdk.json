@@ -1,0 +1,27 @@
+{
+  "name": "cloud-chain-sdk",
+  "version": "1.0.0",
+  "description": "云链白泽 SDK",
+  "private": false,
+  "main": "index.js",
+  "dependencies": {
+    "@types/cli-table2": "^0.2.2",
+    "@types/md5": "^2.2.0",
+    "@types/node": "^14.0.13",
+    "axios": "^0.19.2",
+    "md5": "^2.2.1",
+    "querystring": "^0.2.0",
+    "typescript": "^3.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/ihyperdata/web-services/baas-command.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "Baasze",
+    "Blockchain",
+    "SDK",
+    "Command"
+  ]
+}

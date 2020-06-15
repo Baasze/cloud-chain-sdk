@@ -1,0 +1,33 @@
+{
+  "name": "baas-command",
+  "description": "云链白泽命令行工具",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "ISC",
+  "scripts": {
+    "dev": "ts-node-dev command.ts",
+    "dev:sdk": "ts-node-dev ./test/index.ts",
+    "build:sdk": "/bin/sh ./build.sdk.sh",
+    "build:command": "/bin/sh ./build.command.sh"
+  },
+  "dependencies": {
+    "@types/cli-table2": "^0.2.2",
+    "@types/md5": "^2.2.0",
+    "@types/node": "^14.0.13",
+    "axios": "^0.19.2",
+    "cli-table2": "^0.2.0",
+    "commander": "^5.1.0",
+    "md5": "^2.2.1",
+    "querystring": "^0.2.0",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "keywords": [
+    "Baasze",
+    "Blockchain",
+    "SDK",
+    "Command"
+  ]
+}
